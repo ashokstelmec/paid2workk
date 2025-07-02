@@ -1,0 +1,25 @@
+/* CSS for the swipe transition */
+.swipe-enter {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  
+  .swipe-enter-active {
+    transform: translateX(0);
+    opacity: 1;
+    transition: transform 700ms ease, opacity 2000ms ease;
+  }
+  
+  .swipe-exit {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  
+  .swipe-exit-active {
+    transform: translateX(100%);  /* Move to the right when exiting */
+    opacity: 0;
+    transition: transform 700ms ease, opacity 2000ms ease;
+  }
+  
+  /* Add any additional styles here */
+  

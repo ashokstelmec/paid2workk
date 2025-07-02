@@ -1,0 +1,48 @@
+const feedbacks = [
+    {
+      id: 1,
+      name: "John Doe",
+      company: "Tech Innovators Inc.",
+      rating: 5,
+      review: "Exceptional work! Delivered the project on time and exceeded our expectations. Highly recommended!",
+      image: "https://i.pravatar.cc/150?img=1",
+      date: "2 days ago",
+      projectType: "Web Development",
+      helpful: 12,
+    },
+    {
+      id: 2,
+      name: "Jane Smith",
+      company: "Creative Solutions LLC",
+      rating: 4,
+      review: "Great communication and problem-solving skills. Would definitely work with again.",
+      image: "https://i.pravatar.cc/150?img=2",
+      date: "1 week ago",
+      projectType: "UI/UX Design",
+      helpful: 8,
+    },
+    {
+      id: 3,
+      name: "Mike Johnson",
+      company: "Global Enterprises",
+      rating: 5,
+      review: "Outstanding attention to detail and technical expertise. A pleasure to work with!",
+      image: "https://i.pravatar.cc/150?img=3",
+      date: "2 weeks ago",
+      projectType: "Mobile App",
+      helpful: 15,
+    },
+    {
+      id: 4,
+      name: "Sarah Williams",
+      company: "Innovative Startups Co.",
+      rating: 4,
+      review: "Delivered high-quality work within a tight deadline. Very impressed with the results.",
+      image: "https://i.pravatar.cc/150?img=4",
+      date: "3 weeks ago",
+      projectType: "Backend Development",
+      helpful: 10,
+    },
+  ]
+
+  export default feedbacks;

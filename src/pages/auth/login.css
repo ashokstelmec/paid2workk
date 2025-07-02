@@ -1,0 +1,142 @@
+.App {
+    text-align: center;
+  }
+  
+  .login-form {
+    padding: 1rem 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+    max-width: 420px !important;
+    /* width: 100%; */
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+}
+
+.login-form h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 0.9rem;
+    border: 1px solid #bcc5d3;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+
+.login-form .forgot-password {
+    color: blue;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.login-form .forgot-password:hover {
+    text-decoration: underline;
+    color: rgb(114, 114, 236);
+}
+
+.login-form .log-in-button button {
+    width: 90%;
+    border: none;
+    background-color: #1772eb;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 0.6rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form .error-message {
+    display: none;
+    color: red;
+    font-size: 14px;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.login-form hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    width: 45%;
+}
+
+.login-form .divider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 14px;
+    color: #888;
+}
+
+@media (min-width: 768px) {
+    .login-form {
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .login-form {
+        max-width: 25%;
+    }
+}
+ 
+.google-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 50px;
+    border: 1px solid #ddd;
+    padding: 5px 2px !important;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.google-btn:hover {
+    background-color: #f7f7f7;
+}
+
+.google-btn svg {
+    width: 30px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+/* Error message style */
+.error-message {
+    color: red !important;
+    font-size: 14px;
+    display: none;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.password-group{
+    position: relative;
+    left: 1.3rem;
+}
+
+.password-toggle{
+    position: absolute;
+    right: 3.5rem;
+    top: 40%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
